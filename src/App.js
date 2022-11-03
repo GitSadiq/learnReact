@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { tab } from "@testing-library/user-event/dist/tab";
-
+import Class1 from "./class1";
 function App() {
   const firstName = "Hello World";
   const obj = { message: "Welcome to Expertiso" };
@@ -96,6 +94,7 @@ function App() {
           </table>
         );
       })}
+      <Class1 />
     </div>
   );
 }
